@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="info.udara" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="10000" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <icon density="ldpi" src="res/drawable-ldpi/icon.png" />
+    <icon density="mdpi" src="res/drawable-mdpi/icon.png" />
+    <icon density="hdpi" src="res/drawable-hdpi/icon.png" />
+    <icon density="xhdpi" src="res/drawable-xhdpi/icon.png" />
+    <splash density="mdpi" src="res/drawable-mdpi/hdpi.9.png" />
+    <splash density="hdpi" src="res/drawable-hdpi/hdpi.9.png" />
+    <splash density="xhdpi" src="res/drawable-xhdpi/hdpi.9.png" />
+    <name>Sri Lankan Cartoons</name>
+    <description>
+        An application which displays
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>
